@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logotipo {
+    width: 100%;
+    height: 130px;
+}
+
+.nav-item a {
+    color: black;
+    font-size: 1rem;
+}
+.nav-item a:hover {
+    color: rgb(127, 187, 240)!important;
+    text-decoration: underline;
+    transition: delay 0.3ms;
+}
+

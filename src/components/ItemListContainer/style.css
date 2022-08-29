@@ -1,0 +1,5 @@
+.lista a {
+    font-family: italic;
+    text-decoration: none;
+    cursor: pointer;
+}
