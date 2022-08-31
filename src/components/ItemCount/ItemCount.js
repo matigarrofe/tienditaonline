@@ -19,9 +19,9 @@ const ItemCount = () => {
                 <div className="col-lg-12" id="botones">
                     <h2 className="text-center">Contador</h2>
                     
-                    <button class='btn btn-outline-danger btn-sm' onClick={resta}>Resta</button>
+                    <button class='btn btn-outline-danger btn-sm' onClick={resta}>-</button>
                     <h4 className="text-center">{contador}</h4>
-                    <button class='btn btn-outline-success btn-sm' onClick={suma}>Sumar</button>
+                    <button class='btn btn-outline-success btn-sm' onClick={suma}>+</button>
                     <button class='btn btn-outline-primary btn-sm'  onClick={reset}>Reset</button>
                     <button class='btn btn-outline-warning btn-sm' id='agregar'>Agregar al carrito</button>
                 </div>
