@@ -2,7 +2,7 @@ import './App.css';
 import NavBar from './components/NavBar/NavBar'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer.jsx'
 import CartWidget from './components/CartWidget/CartWidget';
-
+import ItemCount from './components/ItemCount/ItemCount'
 function App() {
   return (
     <div>
@@ -14,6 +14,8 @@ function App() {
           <ItemListContainer nombre='Productos de outlet' url={'/'} />
           <ItemListContainer nombre='Promociones' url={'/'} />
         </ul>
+        <ItemCount />
+        
     </div>
   );
 }

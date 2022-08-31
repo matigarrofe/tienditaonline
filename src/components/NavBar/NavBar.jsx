@@ -3,7 +3,6 @@ import './style.css'
 
 const NavBar = () => {
   return (
-    //Componente Contenedor
     <div> 
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container">
